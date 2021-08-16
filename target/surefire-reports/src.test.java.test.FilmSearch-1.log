@@ -1,0 +1,80 @@
+21:42:44.449 found scenario at line: 9 - ^Film arama islemi$
+21:42:44.715 not a js function or feature file: read('classpath:karate-config.js') - [type: STRING, value: http://www.omdbapi.com/]
+21:42:46.824 [print] Harry Potter and the Sorcerer's Stone  titlına ait ımdbID :  tt0241527
+21:42:47.293 [print] {
+  "Title": "Harry Potter and the Sorcerer's Stone",
+  "Year": "2001",
+  "Rated": "PG",
+  "Released": "16 Nov 2001",
+  "Runtime": "152 min",
+  "Genre": "Adventure, Family, Fantasy",
+  "Director": "Chris Columbus",
+  "Writer": "J.K. Rowling, Steve Kloves",
+  "Actors": "Daniel Radcliffe, Rupert Grint, Richard Harris",
+  "Plot": "An orphaned boy enrolls in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world.",
+  "Language": "English",
+  "Country": "United Kingdom, United States",
+  "Awards": "Nominated for 3 Oscars. 17 wins & 68 nominations total",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BNjQ3NWNlNmQtMTE5ZS00MDdmLTlkZjUtZTBlM2UxMGFiMTU3XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_SX300.jpg",
+  "Ratings": [
+    {
+      "Source": "Internet Movie Database",
+      "Value": "7.6/10"
+    },
+    {
+      "Source": "Rotten Tomatoes",
+      "Value": "81%"
+    },
+    {
+      "Source": "Metacritic",
+      "Value": "64/100"
+    }
+  ],
+  "Metascore": "64",
+  "imdbRating": "7.6",
+  "imdbVotes": "684,604",
+  "imdbID": "tt0241527",
+  "Type": "movie",
+  "DVD": "16 Dec 2012",
+  "BoxOffice": "$318,087,620",
+  "Production": "1492 Pictures, Heyday Films, Warner Brothers",
+  "Website": "N/A",
+  "Response": "True"
+}
+
+ expected: '2001', reason: actual json-path does not exist
+6 Nov 2001', expected: '16 Nov 2002', reason: not equal
+ exist
+5BMl5BanBnXkFtZTYwMzIxNTg3._V1_SX300.jpg"
+  },
+  {
+    "Title": "Harry Potter and the Deathly Hallows: Part 1",
+    "Year": "2010",
+    "imdbID": "tt0926084",
+    "Type": "movie",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMTQ2OTE1Mjk0N15BMl5BanBnXkFtZTcwODE3MDAwNA@@._V1_SX300.jpg"
+  },
+  {
+    "Title": "Harry Potter and the Half-Blood Prince",
+    "Year": "2009",
+    "imdbID": "tt0417741",
+    "Type": "movie",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNzU3NDg4NTAyNV5BMl5BanBnXkFtZTcwOTg2ODg1Mg@@._V1_SX300.jpg"
+  },
+  {
+    "Title": "Harry Potter and the Forbidden Journey",
+    "Year": "2010",
+    "imdbID": "tt1756545",
+    "Type": "movie",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNDM0YzMyNGUtMTU1Yy00OTE2LWE5NzYtZDZhMTBmN2RkNjg3XkEyXkFqcGdeQXVyMzU5NjU1MDA@._V1_SX300.jpg"
+  },
+  {
+    "Title": "Harry Potter and the Chamber of Secrets",
+    "Year": "2002",
+    "imdbID": "tt0304140",
+    "Type": "game",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNTM4NzQ2NjA4NV5BMl5BanBnXkFtZTgwODAwMjE4MDE@._V1_SX300.jpg"
+  }
+]
+
+17:14:00.744 [print] Harry Potter and the Sorcerer's Stone  titlına ait ımdbID :  tt0241527
